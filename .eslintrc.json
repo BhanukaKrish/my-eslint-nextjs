@@ -1,9 +1,18 @@
 {
-  "extends": "next/core-web-vitals",
-  "rules": {
-    "no-console": "error",
-    "no-debugger": "off",
-    "no-unused-vars": "error",
-    "no-undef": "off"
-  }
+	"extends": "next/core-web-vitals",
+	"rules": {
+		"no-console": "error",
+		"no-unused-vars": "warn",
+		"no-unused-expressions": "warn",
+		"no-use-before-define": "off",
+		"no-tabs": "off",
+		"quotes": ["warn", "single"],
+		"semi": ["off", "always"],
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-uses-vars": "error",
+		"react/jsx-uses-react": "error",
+		"react/prop-types": "off",
+		"smart-tabs/tab-size": "off",
+		"no-mixed-spaces-and-tabs": "off"
+	}
 }
