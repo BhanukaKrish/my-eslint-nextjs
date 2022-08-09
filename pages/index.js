@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   return (
     <div className={styles.container}>
       <Head>
